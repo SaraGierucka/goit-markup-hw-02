@@ -1,0 +1,24 @@
+body {
+    color: rgba(117, 117, 117, 1);
+    font-family: 'Roboto';
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    line-height: 31px;
+
+}
+.logo .logo-firstpart {
+    color:rgba(33, 150, 243, 1);

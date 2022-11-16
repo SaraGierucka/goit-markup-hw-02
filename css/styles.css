@@ -8,6 +8,7 @@ body {
 }
 .logo {
     color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
     position: absolute;
     width: 145px;
     height: 31px;
@@ -24,17 +25,18 @@ body {
 .logo .logo-firstpart {
     color: rgba(33, 150, 243, 1);
 }
+.nav-list {
+    background-color: rgba(255, 255, 255, 1);
+}
 .nav-links .link {
     color: rgba(33, 33, 33, 1);
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0.02em;
 }
-.title {
-    color: rgba(255, 255, 255, 1);
+.contact-links { 
+    background-color: rgba(255, 255, 255, 1);    
 }
 .contact-links .link {
     color: rgba(117, 117, 117, 1);
@@ -48,4 +50,16 @@ body {
 }
 .link {
     text-decoration: none;
+}
+.title-section { 
+    background-color: rgba(47, 48, 58, 1);
+}
+.title {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }

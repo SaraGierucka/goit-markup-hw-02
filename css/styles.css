@@ -1,19 +1,23 @@
 :root {
     --brand-color: #212121; 
+    --black: #000;
+    --blue: #2196F3;
+    --grey: #757575;
+    --white: #FFFFFF;
+    --darkblue-background: #2F303A;
+    --lightgray-background: #E5E5E5;
+    --white-background: #FFFFFF;
+    --blue-hover-focus: #2196F3;
+    --grey-hover-focus: #757575;
 }  
 body {
     color: var(--brand-color); 
-    background-color: #E5E5E5;
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    background-color: var(--lightgray-background);
+    font-family: 'Roboto', sans-serif;
 }
 .logo {
-    color: rgba(0, 0, 0, 1);
-    background-color: rgba(255, 255, 255, 1);
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
+    color: var(--black);
+    background-color: var(--white-background);
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -22,11 +26,14 @@ body {
     line-height: 1,19;
     text-decoration: none;
 }
+.logo:hover, .logo:focus {
+    color: var(--blue)
+}
 .logo .logo-firstpart {
-    color: rgba(33, 150, 243, 1);
+    color: var(--blue);
 }
 .nav-list {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: var(--white-background);
 }
 .nav-links .link {
     color: var(--brand-color);
@@ -36,26 +43,26 @@ body {
     letter-spacing: 0.02em;
 }
 .contact-links { 
-    background-color: rgba(255, 255, 255, 1);    
+    background-color: var(--white-background);    
 }
 .contact-links .link {
-    color: rgba(117, 117, 117, 1);
+    color: var(--grey);
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0.02em;
 }
 .link:hover, .link:focus  {
-    color: rgba(33, 150, 243, 1) ;
+    color: var(--blue-hover-focus) ;
 }
 .link {
     text-decoration: none;
 }
 .title-section { 
-    background-color: rgba(47, 48, 58, 1);
+    background-color: var(--darkblue-background);
 }
 .title {
-    color: rgba(255, 255, 255, 1);
+    color: var(--white);
     font-weight: 900;
     font-size: 44px;
     line-height: 1,36;
@@ -63,7 +70,7 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
-.button {
+.booking {
     font-weight: 700;
     font-size: 16px;
     line-height: 1,88;
@@ -71,13 +78,13 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background: #2196F3;
+    color: var(--white);
+    background: var(--blue);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
-.button:hover, .button:focus {
-    background-color: rgba(117, 117, 117, 1);
+.booking:hover, .booking:focus {
+    background-color: var(--grey-hover-focus);
 }
 .title-text {
     color: var(--brand-color);

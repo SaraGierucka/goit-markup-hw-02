@@ -27,9 +27,6 @@ body {
     line-height: 1,19;
     text-decoration: none;
 }
-.logo:hover, .logo:focus {
-    color: var(--blue)
-}
 .logo .logo-firstpart {
     color: var(--blue);
 }
@@ -52,12 +49,6 @@ body {
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0.02em;
-}
-.link:hover, .link:focus  {
-    color: var(--blue-hover-focus) ;
-}
-.link {
-    text-decoration: none;
 }
 .title-section { 
     background-color: var(--darkblue-background);
@@ -154,4 +145,15 @@ body {
     font-style: normal;
     color: var(--white)
 }
-
+.link:hover, .link:focus  {
+    color: var(--blue-hover-focus) ;
+}
+.link {
+    text-decoration: none;
+}
+.logo:hover, .logo:focus {
+    color: var(--blue)
+}
+.mail {
+    text-decoration: underline;
+}

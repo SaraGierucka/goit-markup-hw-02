@@ -4,6 +4,7 @@
     --blue: #2196F3;
     --grey: #757575;
     --white: #FFFFFF;
+    --dirtywhite:rgba(255, 255, 255, 0.6);
     --darkblue-background: #2F303A;
     --lightgray-background: #F5F4FA;
     --white-background: #FFFFFF;
@@ -134,4 +135,23 @@ body {
     letter-spacing: 0.03em;
     color: var(--grey);
 }
-    
+.info {
+    font-size: 14px;
+    line-height: 1,71x;
+    letter-spacing: 0.03em;
+    background-color: var(--darkblue-background);
+}
+.info > .logo {
+    color: var(--white);
+    background-color: var(--darkblue-background);
+}
+.info .contact-links {
+    background-color: var(--darkblue-background);
+    color: var(--dirtywhite);
+    font-style: normal;
+}
+.address-data {
+    font-style: normal;
+    color: var(--white)
+}
+

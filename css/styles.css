@@ -5,14 +5,14 @@
     --grey: #757575;
     --white: #FFFFFF;
     --darkblue-background: #2F303A;
-    --lightgray-background: #E5E5E5;
+    --lightgray-background: #F5F4FA;
     --white-background: #FFFFFF;
     --blue-hover-focus: #2196F3;
     --grey-hover-focus: #757575;
 }  
 body {
     color: var(--brand-color); 
-    background-color: var(--lightgray-background);
+    background-color: var(--white-background);
     font-family: 'Roboto', sans-serif;
 }
 .logo {
@@ -98,5 +98,40 @@ body {
     font-size: 14px;
     line-height: 1,71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--grey);
 }
+.container-our-job {
+    background-color: var(--white-background);
+}
+.container-title {
+    color: var(--brand-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.container-team {
+    background-color: var(--lightgray-background);
+}
+.team-member {
+    background-color: var(--white-background);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.team-member-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--brand-color);
+}
+.team-member-position {
+    font-size: 16px;
+    line-height: 1,19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--grey);
+}
+    

@@ -20,7 +20,6 @@ body {
   color: var(--black);
   background-color: var(--white-background);
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
@@ -142,7 +141,6 @@ body {
 .info .contact-links {
   background-color: var(--darkblue-background);
   color: var(--dirtywhite);
-  font-style: normal;
 }
 .address-data {
   font-style: normal;
